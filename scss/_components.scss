@@ -1,0 +1,12 @@
+.btn {
+  background-color: $primary-color;
+  color: $text-color;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  @include transition(all);
+
+  &:hover {
+    background-color: lighten($primary-color, 10%);
+  }
+}
